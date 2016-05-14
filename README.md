@@ -2,6 +2,10 @@
 
 Handy dandy Java cheat sheet.
 
+##### Contents
+
+* [Reserved Words](#reserved-words)
+
 ## Reserved Words
 
 These words cannot be used in variable naming because Java itself uses them. They _may_ look familiar!
