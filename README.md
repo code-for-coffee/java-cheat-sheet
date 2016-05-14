@@ -7,7 +7,7 @@ Handy dandy Java cheat sheet.
 * [Reserved Words](#reserved-words)
 * [Operators](#operators)
 * [Primitive Data Types](#primitive-data-types)
-
+* [Labeled Statements](#labeled-statements)
 
 
 ## Reserved Words
@@ -127,3 +127,13 @@ double  // default: 0.0
 ```
 
 >> **Note**: `String` is _not_ considered to be a default data type since it is composed of multiple `char`
+
+## Labeled Statements
+
+```java
+rowLoop: for (int r = 0; r < rows.length; r++) {
+  columnLoop: for (int c = 0; c < columns.length; c++) {
+    break rowLoop;
+  }
+}
+```
