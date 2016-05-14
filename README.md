@@ -5,6 +5,10 @@ Handy dandy Java cheat sheet.
 ##### Contents
 
 * [Reserved Words](#reserved-words)
+* [Operators](#operators)
+* [Primitive Data Types](#primitive-data-types)
+
+
 
 ## Reserved Words
 
@@ -108,3 +112,18 @@ while
 >>>=
 ->
 ```
+
+## Primitive Data Types
+
+```java
+boolean // default: is false
+char    // default: \u0000
+byte    // default: 0
+short   // default: 0
+int     // default: 0
+long    // default: 0
+float   // default: 0.0
+double  // default: 0.0
+```
+
+>> **Note**: `String` is _not_ considered to be a default data type since it is composed of multiple `char`
