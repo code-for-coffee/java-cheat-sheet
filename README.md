@@ -8,6 +8,7 @@ Handy dandy Java cheat sheet.
 * [Operators](#operators)
 * [Primitive Data Types](#primitive-data-types)
 * [Labeled Statements](#labeled-statements)
+* [Try with Resources](#try-with-resources)
 
 
 ## Reserved Words
@@ -135,5 +136,15 @@ rowLoop: for (int r = 0; r < rows.length; r++) {
   columnLoop: for (int c = 0; c < columns.length; c++) {
     break rowLoop;
   }
+}
+```
+
+## Try with Resources
+
+Exactly the same as then `using` statement in C#.
+
+```java
+try (FileReader reader = new FileReader()) {
+  //FileReader.methodName();
 }
 ```
