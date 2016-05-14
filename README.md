@@ -145,6 +145,6 @@ Exactly the same as then `using` statement in C#.
 
 ```java
 try (FileReader reader = new FileReader()) {
-  //FileReader.methodName();
+  //reader.methodName();
 }
 ```
